@@ -1,0 +1,29 @@
+
+* {
+  color: blue;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+ul li {
+  color: darkviolet;
+}
+
+.new {
+      color: darkred;
+}
+
+.new:visited {
+      color: red;
+}
+
+h1, h2 {
+  color:black;
+}
