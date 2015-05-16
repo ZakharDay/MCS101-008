@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.new {
+  color: #ba0000;
+}
+
+.new: visited {
+  color: #a55858;
+}
