@@ -1,15 +1,75 @@
-a {
-  text-decoration: none;
+body {
+  padding: 50px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+  font-family: 'Linux Libertine', Georgia, Times, serif;
+}
+
+h1 {
+  font-size: 29px;
+  line-height: 40px;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 23px;
+}
+
+p, li {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+li {
+  margin: 2px 0;
+}
+
+a, a:link {
+  color: #0645ad;
 }
 
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
-.new {
+a:active {
+  color: #faa700;
+}
+
+a:visited {
+  color: #0b0080;
+}
+
+a.new, a.new:link {
   color: #ba0000;
 }
 
-.new:visited {
+a.new:visited {
   color: #a55858;
+}
+
+ul, ol {
+  margin-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+sup {
+  font-size: smaller;
+  vertical-align: super;
+  line-height: 1em;
 }
