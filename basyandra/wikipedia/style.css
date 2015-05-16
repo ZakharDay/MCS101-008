@@ -1,0 +1,15 @@
+ul li {
+  color: green;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.new {
+  style="color: #ba0000;
+}
+.new:visited {
+  color: #a55858;
+}
