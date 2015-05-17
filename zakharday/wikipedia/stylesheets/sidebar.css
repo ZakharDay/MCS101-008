@@ -12,12 +12,52 @@ nav {
   height: 100%;
   padding: 20px;
   background-color: black;
+}
+
+nav li {
+  padding: 2px 0;
+  line-height: 1.3;
+}
+
+nav a {
   color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 section {
   width: 700px;
   margin: 0 auto;
+}
+
+section a,
+section a:link {
+  color: #0645ad;
+}
+
+section a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+section a:active {
+  color: #faa700;
+}
+
+section a:visited {
+  color: #0b0080;
+}
+
+section a.new,
+section a.new:link {
+  color: #ba0000;
+}
+
+section a.new:visited {
+  color: #a55858;
 }
 
 section ul,

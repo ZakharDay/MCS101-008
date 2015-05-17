@@ -31,31 +31,6 @@ li {
   margin: 2px 0;
 }
 
-a, a:link {
-  color: #0645ad;
-}
-
-a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-a:active {
-  color: #faa700;
-}
-
-a:visited {
-  color: #0b0080;
-}
-
-a.new, a.new:link {
-  color: #ba0000;
-}
-
-a.new:visited {
-  color: #a55858;
-}
-
 sup {
   font-size: smaller;
   vertical-align: super;
