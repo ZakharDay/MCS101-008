@@ -28,7 +28,7 @@ li {
 }
 
 sup {
-  font-size: smaller;
   vertical-align: super;
   line-height: 1em;
+  font-size: smaller;
 }
