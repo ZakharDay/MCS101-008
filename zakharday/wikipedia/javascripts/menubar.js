@@ -5,7 +5,7 @@ $(function() {
       e.preventDefault();
       scrollTo = $(this).attr('href');
       $('html,body').animate({
-        scrollTop: $(scrollTo).offset().top - 30
+        scrollTop: $(scrollTo).offset().top - 80
       }, 1000);
     });
   });
