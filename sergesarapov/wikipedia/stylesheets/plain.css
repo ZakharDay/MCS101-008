@@ -29,3 +29,7 @@ a:visited {
 .new:visited {
   color:#a55858;
 }
+
+body {
+  padding: 50px;
+}
