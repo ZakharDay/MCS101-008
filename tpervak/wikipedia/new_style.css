@@ -12,21 +12,21 @@ b {
  }
 
 a {
-  color: #0645ad;
+  color: #0645ad; cursor: pointer;
 }
 a:hover {
-  text-decoration: underline; color: olive;
+  text-decoration: underline;
 }
-.active {
+a:visited {
   color: #faa700;
 }
-.visited {
+a:active {
   color: #0b0080;
 }
-.new {
+a:new {
   color: #ba0000;
 }
-.new:visited {
+a:new:visited {
   color: #a55858;
 }
 ul {
@@ -41,3 +41,12 @@ li {
 body {
   padding: 50px; }
  }
+sup {
+  font-size: smaller;
+  vertical-align: super;
+  line-height: 1em;
+}
+a {
+  color: black;
+  
+}
