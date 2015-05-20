@@ -1,3 +1,7 @@
+body {
+  padding: 50px;
+}
+
 a, a:link {
   color: #0645ad;
 }
