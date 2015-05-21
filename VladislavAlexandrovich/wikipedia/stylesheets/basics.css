@@ -1,0 +1,41 @@
+
+h1 {
+  font-size: 29px; line-height: 40px;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+h1, h2 {
+  font-family: georgia;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+b {
+  font-weight: bold;
+}
+
+
+.new {
+  color: #ba0000;
+}
+
+.new: visited {
+  color: #a55858;
+}
+
+ul, ol {
+  margin-left: 30px;
+}
+sup {
+  vertical-align: super; font-family: sans-serif;
+}
+body {padding: 50px}
+h2 {padding: 30px}
+h1 {padding: 10px}
+p {padding-top: 10px; padding-bottom: 10px}
+li {padding-top: 2px; padding-bottom: 2px}
