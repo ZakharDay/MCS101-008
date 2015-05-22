@@ -35,10 +35,6 @@ li {
   margin-bottom: 2px;
 }
 
-a:hover {
-  cursor: pointer;
-}
-
 sup {
   vertical-align: super;
   font-size: smaller;
