@@ -1,0 +1,41 @@
+section {
+  margin: auto;
+  width: 700px;
+  line-height: 1.5;
+}
+
+h1, h2,h3 {
+  font-family: “Lucida Grande”, ”Lucida Sans Unicode”, ”Lucida Sans”, Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 90px auto 1px;
+}
+
+h2 {color: silver;
+  text-align: center;
+  margin: auto;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 30px auto 1px;
+}
+
+p, li {
+  font-family: Georgia, Cambria, ”Times New Roman”, Times, serif;
+  font-size: 18px;
+  margin: 1px auto 15px;}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+hr {width: 80px;
+border-top: 1px solid silver;
+margin: 200px 600px;
+}
