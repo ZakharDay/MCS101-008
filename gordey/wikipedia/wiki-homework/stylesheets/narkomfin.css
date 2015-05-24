@@ -1,20 +1,47 @@
-h1, h2, h3 {
+h2 {
   font-family: “Lucida Grande”, ”Lucida Sans Unicode”, ”Lucida Sans”, Geneva, Verdana, sans-serif;
-  margin-bottom: 30px;
-  margin-top: 30px;
 }
 
-p,h3,li {
-  padding-left: 250px;
-  padding-right: 250px;
- }
+h1, h3 {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  padding-top: 130px;
+  padding-bottom: 5px;
+}
+
+h2 {
+  color: lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
 
 h3 {
+  margin-top: 40px;
+  font-size: 20px;
+  padding-bottom: 0px;
+}
+
+h3, li, p {
   text-align: left;
+}
+
+p {
+padding-bottom: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 section {
   text-align: center;
+  line-height: 20px;
 }
 
 section a {
@@ -22,10 +49,25 @@ section a {
   color: black;
 }
 
-P {
-  text-align: left;
+h1, h3, b {
+  font-weight: bold;
 }
 
-h1, h3 {
-  font-weight: bold;
+
+hr {
+   border: none;
+   background-color: lightgray;
+   height: 0.5px;
+   width: 70px;
+   margin: 100px auto;
+}
+
+ul {
+  padding-left: 15px;
+  list-style-type: disc;
+}
+
+div.center {
+  width: 40%;
+  margin: auto;
 }
