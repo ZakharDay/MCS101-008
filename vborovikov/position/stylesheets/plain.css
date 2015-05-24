@@ -1,0 +1,28 @@
+ul,ol{
+  margin-left: 30px;
+}
+ul{
+  list-style-type: disc;
+}
+ol{
+  list-style-type: decimal;
+}
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+a:active{
+  cursor: pointer;
+  color: #faa700;
+}
+a:visited{
+  color: #0b0080;
+}
+nav a{
+  color: white;
+}
+body{padding: 50px;}

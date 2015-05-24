@@ -36,7 +36,7 @@ h2
   font-weight: bold;
   line-height: 1.2;
   margin-top: 40px;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.02em;
   margin-bottom: 4px;
   color: rgba(0,0,0,0.8);
 
@@ -141,4 +141,10 @@ nav li{
 } */
 body{
   background-image:
+}
+sup a{
+  text-decoration: none;
+}
+body{
+  background-position: top center;
 }
