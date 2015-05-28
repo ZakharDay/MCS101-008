@@ -3,6 +3,10 @@ html, body {
   height: 100%;
 }
 
+h1, h2 {
+
+  font-family: 'PT Sans', sans-serif;
+}
 nav {
   box-sizing: border-box;
   position: fixed;
@@ -25,12 +29,21 @@ nav a:hover {
 
 nav li {
   padding: 2px 0;
+  font-family: 'PT Sans', sans-serif;
   line-height: 1.3;
 }
 
 section {
   width: 700px;
   margin: 0 auto;
+  padding: 50px 0;
+}
+
+section p,
+select li{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+
 }
 
 section ul,
