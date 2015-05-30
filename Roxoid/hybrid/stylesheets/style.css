@@ -1,0 +1,7 @@
+@import "reset.css";
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Caption:400,700&subset=cyrillic,cyrillic-ext,latin,latin-ext);
+@import "basics.css";
+@import "layout.css";
