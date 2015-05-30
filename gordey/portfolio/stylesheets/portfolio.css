@@ -40,7 +40,7 @@ p {
 
 #welcome section {
   height: 500px;
-  background-image: url(../images/portfolio/header-bg.jpg);
+  background-image: url(../images/header-bg.jpg);
   background-size: cover;
   background-position: center;
   }
@@ -48,7 +48,7 @@ p {
 #welcome aside {
   box-sizing: border-box;
   float: left;
-  background-image: url(../images/portfolio/userpic.jpg);
+  background-image: url(../images/userpic.jpg);
   background-size: cover;
   border: 4px solid white;
   border-radius: 5px;
@@ -113,15 +113,15 @@ p {
 }
 
 #facebook {
-  background-image: url(../images/portfolio/social-facebook.png);
+  background-image: url(../images/social-facebook.png);
 }
 
 #instagram {
-  background-image: url(../images/portfolio/social-instagram.png);
+  background-image: url(../images/social-instagram.png);
 }
 
 #vk {
-  background-image: url(../images/portfolio/social-vk.png);
+  background-image: url(../images/social-vk.png);
 }
 
 
