@@ -1,5 +1,4 @@
 body {
-  width: 700px;
   font-family: "HelveticaNeue-Light", Arial, sans-serif;
 }
 
@@ -11,17 +10,42 @@ h3 {
   font-size: 20px;
 }
 
+#ex {
+  display: flex;
+  height: 600px;
+}
 
-h3 {
+#ex img {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+#intro header, #list header {
+  padding: 60px;
+}
+
+#intro header, #intro p, #list header {
   width: 700px;
   margin: 0 auto;
 }
 
-p {
-  font-size: 16px;
-  margin-top: 10px;
+#intro p {
+  font-size: 20px;
+  margin-top: 16px;
 }
 
-#list img {
+#intro p:first-of-type {
+  margin-top: 0;
+}
+
+/* List Section */
+
+#list1 {
+
+  display: flex;
+}
+
+#list1 img {
   width: 33.333%;
 }
