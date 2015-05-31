@@ -1,0 +1,5 @@
+@import 'reset.css';
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Caption:400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+
+@import 'basics.css';
+@import 'layout.css';
