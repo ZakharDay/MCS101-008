@@ -1,0 +1,118 @@
+#projects {
+  position: relative;
+  font-size: 0;
+  /*overflow-x: scroll;*/
+  overflow: hidden;
+}
+
+#circlesWrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+  text-align: center;
+}
+
+#circlesWrapper li {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  z-index: 1;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+#circlesWrapper li.current {
+  background-color: white;
+}
+
+
+#projectsWrapper {
+  width: 300vw;
+  transition: all .3s ease-out;
+}
+
+.project {
+  height: 600px;
+  width: 100vw;
+  background-image: url(../images/hack_exchange.jpg);
+  position: relative;
+  background-position: center;
+  transition: all .3s ease-out;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.project:hover .overlay {
+  background-color: rgba(70,0,130,.7);
+}
+.project:hover {
+  background-size: 120%;
+}
+
+.project:hover .button {
+  background-color: rgba(190, 255, 0, 0.5);
+}
+
+.project section {
+  position: relative;
+  z-index: 1;
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 100px;
+  color: white;
+}
+
+.project h2 {
+  font-size: 40px;
+}
+
+.project h3 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.project p {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.project .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.6);
+  transition: all .3s ease-out;
+}
+
+.project .button {
+  height: 50px;
+  border: 2px solid white;
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 20px;
+  line-height: 50px;
+  text-transform: uppercase;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top:  40px;
+  transition: all .3s ease-out;
+  cursor: pointer;
+}
+
+.project .button:hover {
+  background-color: rgba(190,255,0,1);
+  color: rgb(30, 40, 60);
+}
+
+
+.project i {
+  margin-left: 10px;
+}

@@ -1,0 +1,43 @@
+#iPhones {
+  padding-top: 100px;
+}
+
+#iPhones:hover figure {
+  padding-top: 60px;
+}
+
+#iPhones h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#iPhones figure {
+  position: relative;
+  width: 420px;
+  height: 345px;
+  padding-top: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: all .3s ease-out;
+}
+
+#iPhones .iPhoneMock {
+  position: absolute;
+  background-size: cover;
+}
+
+#iPhoneSide2 {
+  width: 400px;
+  height: 400px;
+  background-image: url(../images/hack_exchange_iphone6_silver_side2.png);
+  margin-left: -55px;
+
+}
+
+#iPhoneSide1 {
+  margin-top: -37px;
+  margin-left: 55px;
+  width: 445px;
+  height: 445px;
+  background-image: url(../images/hack_exchange_iphone6plus_silver_side1.png);
+}
