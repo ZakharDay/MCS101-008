@@ -1,0 +1,48 @@
+
+#iphones {
+  padding-top: 100px;
+}
+
+#iphones:hover  figure{
+  padding-top: 60px;
+}
+
+#iphones h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#iphones figure {
+  position: relative;
+  overflow: hidden;
+  width: 420px;
+  height: 345px;
+  padding-top: 100px;
+  margin: 0 auto;
+
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#iphones .iphoneMock {
+  position: absolute;
+  background-size: cover;
+}
+
+#iphoneSide2 {
+  width: 400px;
+  height: 400px;
+  margin-left: -55px;
+  background-image: url(../images/side2.png);
+}
+
+#iphoneSide1 {
+  width: 445px;
+  height: 445px;
+  margin-top: -37px;
+  margin-left: 55px;
+  background-image: url(../images/side1.png);
+}
