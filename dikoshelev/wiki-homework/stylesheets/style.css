@@ -1,0 +1,109 @@
+body {
+  /* background: url(../image/dom_narkomfina_bg.jpg); */
+  background-size: auto;
+  background-position: top;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(0,0,0,0.8);
+  margin-bottom: 30px;
+  width: 700px;
+}
+
+ul, ol {
+  font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(0,0,0,0.8);
+  margin-bottom: 30px;
+  width: 700px;
+  margin-left: 30px;
+  list-style-type: disc;
+  padding: 0;
+}
+
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  margin-left: -3px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  margin-top: 40px;
+  padding-top: 171px;
+  margin-bottom: 8px;
+  color: rgba(0,0,0,0.8);
+}
+
+h2 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  margin-left: -1.8px;
+  line-height: 1.2;
+  margin-top: 40px;
+  margin-bottom: 4px;
+  color: rgba(0,0,0,0.8);
+
+}
+
+h3 {
+  letter-spacing: -0.02em;
+  text-align: center;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 32px;
+  margin-left: -1.6px;
+  line-height: 1.2;
+  color: rgba(0,0,0,0.44);
+  margin-top: -3px;
+  margin-bottom: 2px;
+}
+
+section {
+  margin-top: 525px;
+}
+
+b {
+  font-weight: bolder;
+}
+
+hr {
+  display: block;
+  width: 100px;
+  margin-top: 293px;
+  margin-bottom: -294px;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+i {
+  font-style: italic;
+}
