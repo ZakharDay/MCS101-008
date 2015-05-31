@@ -20,6 +20,14 @@
   </script>
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=250058338531190";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <!-- <h2><a href="http://zakharday.github.io/MCS101-008/zakharday/hybrid/index.html" target="_blank">Zakhar Day</a></h2> -->
 
   <ul>
@@ -107,6 +115,8 @@
 
     </li>
   </ul>
+
+  <div class="fb-like" data-href="http://zakharday.github.io/MCS101-008/group/index.html" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
 
 </body>
 </html>
