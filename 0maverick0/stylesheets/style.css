@@ -1,0 +1,56 @@
+body {
+  height: 6500px;
+  background-image: url('../bg.jpg');
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  padding-top: 213px;
+  font-weight: bold;
+  color: #303030;
+  letter-spacing: -2.4px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 25px;
+  color: #303030;
+}
+
+h3 {
+  font-size: 30px;
+  padding-bottom: 532px;
+  color: grey;
+  padding-top: 10px;
+}
+
+section {
+  width: 750px;
+  margin: 0 auto;
+}
+
+p {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 24px;
+  padding-bottom: 27px;
+  line-height: 33px;
+}
+
+b {
+  font-weight: bold;
+}
