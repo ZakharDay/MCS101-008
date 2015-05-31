@@ -1,0 +1,82 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.new {
+  color: #ba0000;
+}
+
+.new:visited {
+  color: #a55858;
+}
+
+h1 {
+  font-size: 29px;
+}
+
+h1 {
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+h1, h2 {
+  font-family: "Linux Libertine", Georgia, Times, serif;
+}
+
+p, ul, ol {
+  font-family: sans-serif;
+}
+
+p, ul, ol {
+  font-size: 14px;
+}
+
+p, ul, ol {line-height: 22px;
+
+}
+
+
+}
+
+body {
+  padding: 50px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+a::selection {
+  cursor: default;
+}
+
+a:link {
+
+}
+
+sup {
+  vertical-align: super;
+  line-height: 1cm;
+  font-size: smaller;
+}
