@@ -1,0 +1,17 @@
+h1 {font-size: 29px; line-height:40px}
+h2 {font-size: 21px}
+h1 {font-family: “Linux Libertine”, Georgia, Times, serif;}
+h2 {font-family: “Linux Libertine”, Georgia, Times, serif;}
+
+a,li {“Linux Libertine”, Georgia, Times, serif;}
+p {font-family: sans-serif; font-size: 14px; line-height: 22px}
+b {font-weight: bold;}
+
+
+
+h1 {margin-bottom: 10px}
+h2 {margin-top: 30px}
+
+p {margin-top, margin-bottom: 10px}
+
+li {margin-top, margin-bottom: 2px}
