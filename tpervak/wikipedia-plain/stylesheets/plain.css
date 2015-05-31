@@ -1,0 +1,38 @@
+ul, ol {
+  margin-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+a, a:link {
+  color: #0645ad;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:active {
+  color: #faa700;
+}
+
+a:visited {
+  color: #0b0080;
+}
+
+a.new, a.new:link {
+  color: #ba0000;
+}
+
+a.new:visited {
+  color: #a55858;
+}
+body {
+  padding: 50px;
+}
