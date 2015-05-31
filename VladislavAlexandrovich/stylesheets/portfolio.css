@@ -12,6 +12,10 @@ p {
   line-height: 20px;
 }
 
+/*#welcome footer, #about header, #about article, #portfolio header {
+  margin: 0 auto;
+  }*/
+
 #welcome footer,
 #about header,
 #portfolio header,
@@ -129,7 +133,9 @@ p {
   border-radius: 5px;
 }
 
-
+#welcome p {
+  margin: 0 175px;
+}
 
 /*desktop ver*/
 
