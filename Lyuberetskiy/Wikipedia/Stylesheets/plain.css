@@ -1,0 +1,32 @@
+ul, ol {
+  margin-left: 30px;
+}
+
+ol {
+list-style-type: decimal;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+a.new, a.new:link {
+  color: #ba0000;
+}
+
+a:visited {
+  color: #a55858;
+}
+
+a:active {
+  color: #faa700;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a, a:link {
+  color: #0645ad;
+}
