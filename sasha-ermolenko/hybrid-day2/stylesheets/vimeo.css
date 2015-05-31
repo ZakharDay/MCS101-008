@@ -1,0 +1,24 @@
+#vimeo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  background-image: url(../images/video_bg.jpg);
+  background-size: cover;
+  background-position: center;
+
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+#vimeo iframe {
+  margin: auto;
+}
+
+#vimeo .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
