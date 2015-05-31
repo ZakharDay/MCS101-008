@@ -1,3 +1,65 @@
+
 body {
-  background: -webkit-linear-gradient(red, blue); 
+  font-family: 'PT Sans', sans-serif;
+}
+
+#start {
+  position: relative;
+  height: 600px;
+  background-image: url(grisha.jpg);
+  background-size: cover;
+}
+
+#start section {
+  position: absolute;
+  padding-top: 300px;
+  width: 100%;
+  text-align: center;
+
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+}
+
+#start {
+
+  color: white;
+}
+
+#start h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#start p {
+  font-size: 20px;
+}
+
+/* Content Section */
+
+#content {
+  position: relative;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.lead {
+  margin-top: 35px;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 24 auto;
 }
