@@ -1,85 +1,3 @@
-/* Welcome Section */
-
-#welcome {
-  position: relative;
-  height: 680px;
-  background-color: blue;
-  color: white;
-}
-
-#welcome section {
-  position: absolute;
-
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-
-  width: 100%;
-  height: 340px;
-  bottom: 40px;
-  text-align: center;
-}
-
-#welcome h1 {
-  font-size: 60px;
-}
-
-#welcome i {
-  font-size: 26px;
-}
-
-
-/* iPhones Section */
-
-#iPhones {
-  padding-top: 100px;
-}
-
-#iPhones h2 {
-  font-size: 40px;
-  text-align: center;
-}
-
-#iPhones figure {
-  position: relative;
-  overflow: hidden;
-  width: 420px;
-  height: 345px;
-  padding-top: 100px;
-  margin: 0 auto;
-}
-
-#iPhones .iPhoneMock {
-  position: absolute;
-  background-size: cover;
-}
-
-#iPhoneSide2 {
-  width: 400px;
-  height: 400px;
-  margin-left: -55px;
-  background-image: url(../images/hack_exchange_iphone6_silver_side2.png);
-}
-
-#iPhoneSide1 {
-  width: 445px;
-  height: 445px;
-  margin-top: -37px;
-  margin-left: 55px;
-  background-image: url(../images/hack_exchange_iphone6plus_silver_side1.png);
-}
-
-
-/* Superstar Section */
-
 #superstar {
   padding-top: 100px;
   background-color: rgba(0,0,0,.01);
@@ -112,6 +30,7 @@
   width: 300px;
   height: 400px;
   background-color: white;
+  cursor: pointer;
 
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -120,6 +39,20 @@
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#superstar .profileCard:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #superstar .background {
@@ -136,14 +69,16 @@
   height: 80px;
   top: 60px;
   left: 110px;
-  border-radius: 100%;
   border: 2px solid white;
+  background-size: cover;
 
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
 
-  background-size: cover;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
 }
 
 #danila .background {
@@ -211,62 +146,4 @@
 .info p {
   margin-top: 46px;
   font-size: 24px;
-}
-
-
-/* Project Section */
-
-#project {
-  position: relative;
-  height: 600px;
-  background-image: url(../images/hack_exchange.jpg);
-}
-
-#project .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,.5);
-}
-
-#project section {
-  position: relative;
-  z-index: 1;
-  width: 980px;
-  margin: 0 auto;
-  padding-top: 100px;
-  color: white;
-}
-
-#project h2 {
-  font-size: 40px;
-}
-
-#project h3 {
-  font-size: 20px;
-  margin-top: 5px;
-}
-
-#project p {
-  margin-top: 30px;
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-#project .button {
-  display: inline-block;
-  height: 50px;
-  padding: 0 20px;
-  margin-top: 40px;
-  font-size: 20px;
-  line-height: 50px;
-  border: 2px solid white;
-
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-#project i {
-  margin-left: 10px;
 }
